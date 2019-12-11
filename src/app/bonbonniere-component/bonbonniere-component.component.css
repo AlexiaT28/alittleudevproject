@@ -1,0 +1,20 @@
+.caragoodness {
+    background-color: rgb(8, 164, 231);
+    color: blueviolet;
+}
+
+.chocogoodness {
+    background-color: rgb(19, 236, 37);
+    color: rgb(236, 10, 10);
+}
+.greasegoodness {
+    background-color: #DDD;
+    color: #607D8B;
+}
+
+.styleAddon{
+    border-style: solid;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 10px 25px 10px;
+}

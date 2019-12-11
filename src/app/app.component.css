@@ -1,0 +1,16 @@
+.cssKing{
+    column-count: 3;
+    column-width: 30%;
+}
+.H1{
+    color: white;
+    text-align: center;
+}
+.imgOfHeader{
+    background-image: url(imgHeader.gif);
+    height: 50px;
+}
+.styleBonbonLegende{
+    padding: 10px 10px 10px 10px;
+    margin: 0px 50px 25px 50px;
+}

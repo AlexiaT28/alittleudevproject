@@ -1,0 +1,6 @@
+    <div *ngFor="let sucrerie of bonbonniere"  [ngSwitch]="sucrerie?.goodness">
+        <div *ngSwitchCase="'caramel'" class="caragoodness styleAddon">{{sucrerie.id}} {{sucrerie.nom}} {{sucrerie.goodness}}</div>
+        <div *ngSwitchCase="'chocolat'" class="chocogoodness styleAddon">{{sucrerie.id}} {{sucrerie.nom}} {{sucrerie.goodness}}</div>
+        <div *ngSwitchCase="'gelatine'" class="greasegoodness styleAddon">{{sucrerie.id}} {{sucrerie.nom}} {{sucrerie.goodness}}</div>
+    </div>
+
